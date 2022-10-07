@@ -36,7 +36,6 @@ public class ServicioPersona {
         } while (!sex.equalsIgnoreCase("H") && !sex.equalsIgnoreCase("M"));
         return p1;
     }
-
     public float calcularIMC(Persona p) {
         float IMC = 0;
 
@@ -53,7 +52,6 @@ public class ServicioPersona {
         }
         return p.getIMC();
     }
-
     public boolean mayorEdad(Persona p) {
         boolean esMayor = false;
 
